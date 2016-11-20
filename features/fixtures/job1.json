@@ -1,1 +1,45 @@
-{}
+{
+	"users": {
+		"ADD_USER": {
+			"payload": {
+				"username": "testUser",
+				"email": "parashar.002@gmail.com"
+			},
+			"url": "APIURL",
+			"expectedresult": {
+				"": ""
+			},
+			"method": "post"
+
+
+		},
+
+		"UPDATE_USER": {
+			"payload": {
+				"username": "testUser1",
+				"email": "parashar.002@gmail.com"
+			},
+			"url": "APIURL",
+			"expectedresult": {
+				"": ""
+			},
+			"method": "put"
+
+
+		},
+		"GET_USER": {
+			"payload": {
+
+				"email": "parashar.002@gmail.com"
+			},
+			"url": "APIURL",
+			"expectedresult": {
+				"": ""
+			},
+			"method": "post"
+
+
+		}
+	}
+
+} 
