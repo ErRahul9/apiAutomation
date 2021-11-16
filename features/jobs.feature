@@ -7,7 +7,7 @@ then response code is <ACTION> is <STATUS>
 
 Examples: jobs
 |API     |STATUS     |RESPONSE       |METHOD       |ACTION     |
-|JOBS    |200        |OK             |GET          | GETALLJOBS|
+|JOBS    |200        |OK             |GET          | GET_USER|
 |JOBS    |200        |OK             |POST         | ADD_USER|
 |JOBS    |200        |OK             |PUT          | UPDATE_USER|
-|JOBS    |200        |OK             |DELETE       | GETALLJOBS|
+|JOBS    |200        |OK             |DELETE       | DELETE_USER|
