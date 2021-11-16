@@ -10,4 +10,5 @@ Examples: jobs
 |JOBS    |200        |OK             |GET          | GET_USER|
 |JOBS    |200        |OK             |POST         | ADD_USER|
 |JOBS    |200        |OK             |PUT          | UPDATE_USER|
+|JOBS    |200        |OK             |PUT          | UPDATE_USER_Negative|
 |JOBS    |200        |OK             |DELETE       | DELETE_USER|
