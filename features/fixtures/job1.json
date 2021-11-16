@@ -13,7 +13,19 @@
 
 
 		},
+"UPDATE_USER_Negative": {
+			"payload": {
+				"username": "testUser",
+				"email": ""
+			},
+			"url": "APIURL",
+			"expectedresult": {
+				"": ""
+			},
+			"method": "post"
 
+
+		},
 		"UPDATE_USER": {
 			"payload": {
 				"username": "testUser1",
