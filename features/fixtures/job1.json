@@ -2,54 +2,14 @@
 	"audience": {
 		"GET_LOCATION": {
 			"payload": {
-				"geo_list": "testUser"
-
+				"advertiser":35082,
+				"full":true
 			},
-			"url": "/geo_list/{geo_list}/location",
+			"url": "http://a4c827ba7542a11ea9f3502586e8d5fc-134438161.us-west-2.elb.amazonaws.com/audience?advertiser=35082&full=true",
 			"expectedresult": {
 				"": ""
 			},
 			"method": "get"
-
-
-		},
-"UPDATE_USER_Negative": {
-			"payload": {
-				"username": "testUser",
-				"email": ""
-			},
-			"url": "APIURL",
-			"expectedresult": {
-				"": ""
-			},
-			"method": "post"
-
-
-		},
-		"UPDATE_USER": {
-			"payload": {
-				"username": "testUser1",
-				"email": "parashar.002@gmail.com"
-			},
-			"url": "APIURL",
-			"expectedresult": {
-				"": ""
-			},
-			"method": "put"
-
-
-		},
-		"GET_USER": {
-			"payload": {
-
-				"email": "parashar.002@gmail.com"
-			},
-			"url": "APIURL",
-			"expectedresult": {
-				"": ""
-			},
-			"method": "get"
-
 
 		}
 	}

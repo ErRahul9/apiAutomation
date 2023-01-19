@@ -1,7 +1,5 @@
 import json
 import os
-import ordereddict
-# = \ /
 
 class jsonReader():
 
@@ -14,6 +12,6 @@ class jsonReader():
 		returnJsonObjects  = {}
 		jsonPath  = os.path.join(self.path,self.filename)
 		readFile = json.load(open(jsonPath))
-		for Key,values in readFile.iteritems():
-			returnJsonObjects[Key]  = Values
+		for Key,values in readFile.items():
+			returnJsonObjects[Key] = values
 		return returnJsonObjects
