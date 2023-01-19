@@ -9,6 +9,7 @@
 			"expectedresult": {
 				"": ""
 			},
+			"sql": "select * from audience.audiences where advertiser_id = 35082;",
 			"method": "get"
 
 		}
