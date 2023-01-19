@@ -18,21 +18,12 @@ class getMethods():
 		response = requests.post(self.reqUrl,data =json.dumps(self.payload),headers =self.header)
 		return (response.json(),response.status_code)
 
- 	def postWithOutPayload(self):
- 		response =  requests.post(self.reqUrl,headers = self.header)
- 		return (response.json(),response.status_code)
 
-
-    def putRequest(self):
-    	response = requests.put(self.reqUrl,data =json.dumps(self.payload),headers =self.header)
+	def putRequest(self):
+		response = requests.put(self.reqUrl,data =json.dumps(self.payload),headers =self.header)
 		return (response.json(),response.status_code)
 
-    def putRequest(self):
-    	response = requests.delete(self.reqUrl, headers =self.header)
-		return ('{}',response.status_code)
 
- 	def getToken(self):
- 		return "authentication token "
 
 
 

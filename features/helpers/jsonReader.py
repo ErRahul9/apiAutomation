@@ -13,7 +13,7 @@ class jsonReader():
 	def readJson(self):
 		returnJsonObjects  = {}
 		jsonPath  = os.path.join(self.path,self.filename)
-		readFile  json.load(open(jsonPath))
+		readFile = json.load(open(jsonPath))
 		for Key,values in readFile.iteritems():
 			returnJsonObjects[Key]  = Values
-	 	return returnJsonObjects
+		return returnJsonObjects

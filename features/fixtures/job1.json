@@ -1,15 +1,15 @@
 {
-	"users": {
-		"ADD_USER": {
+	"audience": {
+		"GET_LOCATION": {
 			"payload": {
-				"username": "testUser",
-				"email": "parashar.002@gmail.com"
+				"geo_list": "testUser"
+
 			},
-			"url": "APIURL",
+			"url": "/geo_list/{geo_list}/location",
 			"expectedresult": {
 				"": ""
 			},
-			"method": "post"
+			"method": "get"
 
 
 		},
