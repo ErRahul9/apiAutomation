@@ -7,7 +7,8 @@
 			},
 			"url": "http://a4c827ba7542a11ea9f3502586e8d5fc-134438161.us-west-2.elb.amazonaws.com/audience?advertiser=35082&full=true",
 			"expectedresult": {
-				"": ""
+				"result": 200
+
 			},
 			"sql": "select * from audience.audiences where advertiser_id = 35082;",
 			"method": "get"
