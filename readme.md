@@ -9,21 +9,7 @@ Here are details of each section
 Fixtures: - 
 1.	 JSON file which ahs the payload that is being send over the network to the API.
 2.	Please make sure JSON structure which corresponds following structure(you can change it based on how you want to implement the automation)
-	
-	"API NAME": {
-		"TEST ACTION LIKE ADD_USER, DELETE_USER": {
-			"payload": {
-				"username": "testUser",
-				"email": "parashar.002@gmail.com"
-			},
-			"url": "APIURL",
-			"expectedresult": {
-				"": ""
-			},
-			"method": "WHICH METHOD TO EXECUTE POST PUT GET DELETE etc."
 
-
-		}
 
 Helpers:-
 1. Following helpers are available which can be used independent of the code
